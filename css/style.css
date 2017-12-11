@@ -1,0 +1,294 @@
+                         /* navigation */
+.navbar{
+	background:black ;
+	font-family:'PT Sans Narrow', Arial, San-serif;
+	font-weight:700;
+	text-transform:uppercase;
+}
+.navbar a{
+	color:#fff !important;
+	opacity;0.7;
+}
+.navcar a:hover{
+	opacity:1;
+	background-color:red !important;
+}
+
+                /* Header */
+.header{
+	width:100%;
+	padding:150px 0 150px;
+	margin-top:30px;
+    background-image:url(../images/bacground.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:#fff;
+}
+
+.header img{
+float:right;
+}
+
+.header h1{
+	font-size:40px;
+	font-weight:700;
+}
+
+.header h1,
+.header p,
+.header buttton{
+	margin-top:20px;
+}
+
+.header .btn{
+	margin:40px 20px;
+}
+
+
+                  /* for small device responsive mode */
+	
+@media(max-width:768px){
+	.header .btn{
+		font-size:10px;
+		margin-left:20px;
+	}
+	.header h1{
+		font-size:40px;
+	}
+
+}	
+	
+                  /* for small device responsive mode */
+
+
+                       /* services */
+.services{
+	padding:80px 0 80px;
+	text-align:center;
+	background:#147BD4;
+	
+}
+.services h2,
+.services h4{
+	color:#4c4c4c;
+	margin:20px 0 20px;
+}
+.services p{
+	color:737373;
+	font-size:14px;
+	padding-bottom:40px;
+}
+.services i{
+	width:80px;
+	height:80px;
+	font-size:30px;
+	padding:25px 20px;
+	border-radius:50%;
+	background-color:#6699cc;
+	color:#fff;
+}
+
+
+   /* ..............PRICING............ */
+   
+.pricing{
+	padding:50px 0 80px;
+	text-align:center;
+	background-color:#3399ff;
+}
+.pricing h2,
+.pricing p{
+	color:red;
+}
+.pricing p{
+	padding-bottom:40px;
+}
+
+.pricing .pacakges{
+	padding:30px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin-top:30px;
+	background-color:#fff;
+}
+
+.pacakges li{
+	display:block;
+	padding:5px;
+	list-style:none;
+}
+
+.pacakges h1,
+.pacakges h4,
+.pacakges b{
+	color:blue;
+}
+
+.pacakges p,
+.pacakges li{
+	color:black;
+}
+
+.pacakges button{
+	margin-top:10px;
+}
+@media(max-width:768px){
+	.pricing{
+		padding:30px;
+	}
+	.pacakges{
+		width:80%;
+		margin-left:25px;
+	}
+}
+/* ************Team************* */
+
+.team{
+	padding:50px 0 80px;
+	text-align:center;
+	background:#00015E
+}
+.team b,
+.team h2,
+.team h4{
+	margin:20px 0 20px;
+	color:4c4c4c;
+}
+.team p{
+	color:#737373;
+}
+.team img{
+	width:150px;
+	height:150px;
+	margin-top:60px;
+}
+.team i{
+width: 30px;
+height: 30px;
+padding: 5px;
+font-size: 20px;
+border-radius: 50%;
+background-color: #01427C;
+}
+
+
+ /* ****Clients******* */
+
+.clients{
+padding: 50px 0 50px;
+background-color: #33ffff;
+color: #fff;
+text-align: center;
+}
+.clients h2{
+	color:#5e5e5e;
+}
+.clients p{
+	padding-bottom:40px;
+}
+.clients img{
+	width:165px;
+	opacity:0.6;
+	cursor:pointer;
+	margin:-6%;
+	transition:all 500ms ease-in-out;	
+}
+.clients li{
+	list-style:none
+}
+.clients li:hover img{
+	opacity:1;
+}
+
+   /************ Contact************ */
+.Contact{
+padding: 50px 080px;
+text-align: center;
+background: #FF0030;
+}
+.Contact p{
+	padding-bottom:80px;
+	color:737373;
+}
+.Contact h2{
+	margin:20px 0 20px;
+	color:#4c4c4c;
+}
+.Contact .input-group{
+	margin-bottom:25px;
+}
+.Contact .form-control{
+	border-radius:0 ! important;
+}
+.Contact span{
+	border-radius:0 !important;
+}
+.Contact .btn{
+	width:100%;
+	border-radius:0;
+	font-size:15px;
+	background-color:#d35c;
+	color:fff;
+	cursor:pointer;
+}
+.Contact .btn:hover{
+	background-color:#a85959 !important;
+	color:#fff !important;
+}
+
+    /* ***********Footer*********** */
+.footer{
+	padding:30px;
+	background-color:#222222;
+	color:#cccccc;
+}
+.footer .social{
+	width:30px;
+	height:30px;
+	font-size:20px;
+	text-align:center;
+	padding:5px;
+	border:1px solid #cccccc;
+	margin-bottom:10px;
+	margin-right:5px;
+	cursor:pointer;
+}
+.footer input{
+width: 145px;
+height: 31px;
+padding: 5px;
+border: none;
+background-color: #cccccc;
+color: #000;
+}
+.footer .btn{
+padding: 7px 5px 8px;
+margin: -5px 0 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
